@@ -20,7 +20,7 @@ float price = 21.198;
 float temperature = 100.0;
 
 printf("My 10th class gpa is %f\n", gpa);
-printf("The price of the cup is ₹ %f\n". price);
+printf("The price of the cup is ₹ %f\n", price);
 printf("The temperature at whuch water boils is %f °C \n", temperature);
 
 
