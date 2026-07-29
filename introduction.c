@@ -34,33 +34,27 @@ printf("The value of pi is %.9lf\n", pi);
 
 
 bool is_online = 1;
-bool is_student =0;
-
+bool is_student = 0;
 if (is_online){
-	printf("You are online")
+	printf("You are online\n");
 }
 
 else{
-	printf("You are offline")
+	printf("You are offline\n");
 }
 
 
 if (is_student){
-	printf("You are a student")
+	printf("You are a student\n");
 }
 
 else{
-	printf("You are not a student")
+	printf("You are not a student\n");
 }
 
 
-
-
-
-	printf("I like my mom!\n");
-	printf("because she makes me everytime happy");
-
-	return 0;
+return 0;
 }
+
 
 
