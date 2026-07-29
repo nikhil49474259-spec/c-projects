@@ -53,6 +53,11 @@ else{
 }
 
 
+char symbol = '#';
+char currency = '₹';
+printf("The most common symbol is %c\n", symbol);
+printf("The currency used in india is %c\n", currency);
+
 return 0;
 }
 
