@@ -4,10 +4,10 @@
 
 int main() {
 
-int age = 0
-float gpa = 0.0
-char grade = '\0'
-char name [25] = ""
+int age = 0;
+float gpa = 0.0;
+char grade = '\0';
+char name [25] = "";
 
 printf("Enter your age:" );
 scanf("%d", &age);
@@ -20,6 +20,12 @@ scanf("%c", &grade);
 
 printf("Enter your name:");
 scanf("%s", &name);
+
+printf("%d\n", age);
+printf("%f\n", gpa);
+printf("%c\n", grade);
+printf("%s\n", name);
+
 
 return 0;
 }
