@@ -2,6 +2,10 @@
 
 //if anything is left empty without a value atleast you need to add null//
 
+
+#include <stdio.h>
+
+
 int main() {
 
 int age = 0;
@@ -19,7 +23,8 @@ printf("Enter your grade:");
 scanf("%c", &grade);
 
 printf("Enter your name:");
-scanf("%s", &name);
+scanf("%s", name);
+
 
 printf("%d\n", age);
 printf("%f\n", gpa);
