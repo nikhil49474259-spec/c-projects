@@ -20,7 +20,7 @@ printf("Enter your gpa:");
 scanf("%f", &gpa);
 
 printf("Enter your grade:");
-scanf( "%c", &grade);
+scanf(" %c", &grade);
 
 printf("Enter your name:");
 scanf("%s", name);
